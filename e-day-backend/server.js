@@ -599,7 +599,6 @@ async function automateApplication(formData) {
     await countryPhoneCode(page, formData);
     await phoneNumber(page, formData);
     await phoneDeviceType(page, formData);
-    await sourceFind(page, formData);
     await nextButtonClick(page);
     await jobTitle(page, formData)
     await companyTitle(page, formData)
@@ -610,6 +609,7 @@ async function automateApplication(formData) {
     await school(page, formData);
     await fieldOfStudy(page, formData);
     await degree(page, formData);
+    await nextButtonClick(page);
 
     // await browser.close();
 }
