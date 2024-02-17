@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.App {
+  background: rgb(255, 0, 228);
+  background: radial-gradient(
+    circle,
+    rgb(221, 223, 236) 0%,
+    rgb(199, 199, 233) 84%,
+    rgb(180, 163, 219) 100%
+  );
+  width: 100vw;
+  height: 150vh;
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.form-container .header {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+
+.form-container .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container .footer button {
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(116, 179, 234);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  margin: 5px;
+}
+
+
+.monthyearalign {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(116, 179, 234);
+}
+
+
